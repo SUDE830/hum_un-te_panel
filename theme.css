@@ -1,0 +1,48 @@
+/* GENEL SAYFA */
+html, body, [class*="css"] {
+    background-color: #F5F9FF;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 0 20px 0;
+    border-bottom: 1px solid #E0E6F0;
+}
+
+.header-title {
+    font-size: 28px;
+    font-weight: 600;
+    color: #1F2937;
+}
+
+/* KARTLAR */
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+}
+
+/* ÖZET KART */
+.metric-box {
+    background-color: white;
+    padding: 18px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* TABLO */
+.stDataFrame {
+    background-color: white;
+    border-radius: 12px;
+}
+
+/* EKSİK VERİ RENK */
+.missing {
+    background-color: #FFF4CC !important;
+}
